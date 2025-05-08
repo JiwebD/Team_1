@@ -70,7 +70,7 @@ public class ProjectController {
 
             projectService.saveProject(dto);
             // 로그로 id 확인
-            System.out.println("📌 생성된 projectId = " + dto.getProjectId());
+            System.out.println("생성된 projectId = " + dto.getProjectId());
 
             return "redirect:/project/read";
 
